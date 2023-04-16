@@ -1,0 +1,104 @@
+/*
+Colors Used:
+Primary Color for Website: #4472C4;
+Secondary Color for Website: #9BD1E5;
+*/
+
+/*
+font-family: 'Poppins', sans-serif;
+weight: 400,600,800;
+*/
+
+body {
+        background-color: #fff;
+        font-family:'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.4;
+        color:black
+}
+
+h1 {
+       font-size: 2.75em; 
+       font-weight: 800;
+}
+
+h2 {
+        font-size: 2.25em; 
+        font-weight: 800;
+}
+
+h3 {
+        font-size: 1.75em; 
+        font-weight: 600;
+}
+
+h4 {
+        font-size: 1.35em; 
+        font-weight: 600;
+}
+
+h5 {
+        font-size: 1.0em; 
+        font-weight: 600;
+}
+
+img {
+        width: 100%;
+}
+
+a   {
+        color: #4472C4;
+        text-decoration: none;
+}
+
+a:hover {
+            color: #9BD1E5;
+            text-decoration: underline;
+}
+
+a:active {
+            color:aqua;
+            text-decoration: underline;
+}
+
+a:focus   {
+            color:#9BD1E5;
+            text-decoration: underline;
+}
+
+/*
+Keep button style near bottom
+*/
+
+.button   {
+            display: inline-block;
+            background-color: #4472C4;
+            color:#fff;
+            font-weight: 600;
+            padding: 16px;
+            transition: .02s opacity;
+}
+
+.button:hover   {
+                    opacity: 0.8;
+                    text-decoration: none;
+                    font-weight: 800;
+                    background-color: #9BD1E5;
+                    color: #fff;
+}
+
+.button:focus   {
+                    opacity: 0.8;
+                    text-decoration: none;
+                    font-weight: 800;
+                    background-color: #9BD1E5;
+                    color: #fff;
+}
+
+.button.contact     {
+                        text-transform: uppercase;
+                        background-color: transparent;
+                        border: 2px solid #4472C4;
+                        color: #4472C4;
+}
