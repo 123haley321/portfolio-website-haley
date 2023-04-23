@@ -208,7 +208,7 @@ main    {
 }
 
 #recycleitz     {
-        padding-top: 50px;
+        padding-top: 150px;
 }
 
 [class*="col-"] {
@@ -224,8 +224,12 @@ main    {
 
 .intro          {
          width: 50%;
-         float:right;
+         display: auto;
 
+}
+
+.mockup         {
+        width: 100%;
 }
 
 @keyframes earth-move    {
