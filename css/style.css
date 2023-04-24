@@ -232,6 +232,12 @@ main    {
         width: 100%;
 }
 
+.city           {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+}
+
 @keyframes earth-move    {
         from    {transform: translate(0,50px);}
         to      {transform: translate(200px,50px);}
