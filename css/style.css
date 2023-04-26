@@ -114,6 +114,13 @@ Keep button style near bottom
                         color: #4472C4;
 }
 
+.hero-img     {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}  
+
 /* layout styling */
 
 .container {
@@ -129,12 +136,12 @@ Keep button style near bottom
                         padding-bottom: 25px;
 }
 
+
 #hero  h1      {
         text-align: center;
 }
 
 .logo           {
-        max-width: 250px;
         text-align: center;
         color: azure;
 }
@@ -142,7 +149,6 @@ Keep button style near bottom
 header          {
         background-color: #4472C4;
         text-align: center;
-        padding: 10px 0;
         position:fixed;
         width:100%;
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
@@ -194,9 +200,6 @@ main    {
                 text-align: center;
 }
 
-#hero img       {
-        float: left;
-}
 
 .link           {
         display: flex;
@@ -214,48 +217,63 @@ main    {
 
 [class*="col-"] {
         float: left;
-        padding: 10px;
+        padding: 40px;
 }
 
 .homeimage      {
         width: 100%;
         max-width: 100%;
         height: auto;
+        padding: 20px;
 }
 
-.intro          {
-         width: 50%;
-         display: auto;
-
-}
 
 .mockup         {
         width: 100%;
 }
 
-.city           {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
+@keyframes color-change    {
+        from    {fill: #edc655;}
+        to      {fill: #f76414;}
 }
 
-@keyframes earth-move    {
-        from    {transform: translate(0,50px);}
-        to      {transform: translate(200px,50px);}
+.sun    {
+                animation: 4s color-change infinite alternate linear;
+
 }
 
+@keyframes cloud-move   {
+        from {transform: translate(0,50px);}
+        to {transform: translate(200px,50px);} 
+}
+
+.cloud-front    {
+        animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse   {
+        from {transform: translate(446px,48px);}
+        to {transform: translate(100px,48px);} 
+}
+
+.cloud-front-reverse    {
+        animation: 30s cloud-move-reverse infinite alternate linear;
+}
 
 /*Medium Devices*/
 @media only screen and (min-width: 640px) {
         header  {
                 text-align: unset;
-                padding: 20px 0 13px;
+        }
+
+        .row    {
+                margin:none;
         }
         
         nav     {
                 width: auto;
                 float: right;
-                margin-top: 4px;
+                margin-top: 50px;
         }
 
         .logo   {
@@ -266,12 +284,17 @@ main    {
                 width: auto;
         }
 
+        h4  {
+                margin: 2px;
+
+        }
+
         #hero   {
                 padding-top: 150px;
         }
 
         main    {
-                padding-top: 99px;
+                padding-top: 250px;
         }
 
         body     {
@@ -280,6 +303,7 @@ main    {
 
         .col-md-6       {
                 width: 50%;
+                padding: 5px;
         }
 
         .row::after     {
@@ -299,18 +323,23 @@ main    {
         #contact        {
                 text-align: left;
         }
-}
+
+        #recycleitz      {
+                padding-top: 200px;
+        }
+
+     }
 
 /*Large Devices*/
 @media only screen and (min-width: 1024px) {
         .col-lg-7    {
-                width: 25%;
+                width: 60%;
                 float:left;
         }
         
         .col-lg-5       {
-                width: 25%;
-                float: right;
+                width: 40%;
+                float: left;
         }
 
         .row::after     {
