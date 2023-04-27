@@ -52,6 +52,11 @@ img {
         padding: 10px;
 }
 
+svg {
+        width: 100%;
+        padding: 10px;
+}
+
 a   {
         color: #4472C4;
         text-decoration: none;
@@ -217,7 +222,7 @@ main    {
 
 [class*="col-"] {
         float: left;
-        padding: 40px;
+        padding: 50px;
 }
 
 .homeimage      {
