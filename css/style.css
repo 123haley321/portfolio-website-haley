@@ -155,7 +155,6 @@ header          {
         background-color: #4472C4;
         position:fixed;
         width:100%;
-        padding: 10px 0 4px;
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;       
