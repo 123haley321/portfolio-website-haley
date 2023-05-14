@@ -202,7 +202,7 @@ nav > ul > li >a:hover         {
 .navtoggle.responsive li  {
         display: block;
         padding: 10px 0;
-        border-top: 1px solid;
+        border-top: 1px;
 }
 
 #hero   {
