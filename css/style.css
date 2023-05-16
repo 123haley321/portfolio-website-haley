@@ -117,6 +117,7 @@ Keep button style near bottom
                         background-color: transparent;
                         border: 2px solid #4472C4;
                         color: #4472C4;
+                        text-align: center;
 }
 
 .hero-img     {
@@ -230,7 +231,8 @@ main    {
 .link           {
         display: flex;
         align-items: center;  
-        padding: 0 15px;             
+        padding: 0 15px; 
+        justify-content: center;            
 }
 
 #about  {
@@ -363,7 +365,7 @@ main    {
         }
 
         #contact        {
-                text-align: left;
+                text-align: center;
         }
 
         #recycleitz      {
